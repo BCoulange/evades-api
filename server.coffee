@@ -1,3 +1,5 @@
+require('coffee-script')
+
 express = require("express")
 app = express()
 url = require 'url'
