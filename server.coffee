@@ -8,6 +8,8 @@ parser = require('xml2json');
 Logger = require('devnull')
 logger = new Logger()
 
+logger.info "ca se lance..."
+
 ical2json = require("ical2json");
 
 
